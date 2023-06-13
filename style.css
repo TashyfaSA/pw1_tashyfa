@@ -1,0 +1,104 @@
+/* pengaturan body*/
+body {
+    background-color  :grey;
+    text-align        : center;
+    font-family       : Verdana, tahoma, Helvetica;
+    font-size         : 12px;
+    background-image  : url(images/sunset.jpg);
+}
+
+
+
+/* pengaturan layout utama */
+#layout {
+  background  :#fff;
+  width       : 980px;
+  margin      : auto;
+  text-align  : left;
+  padding     : 2px;
+}
+#header{
+  width            : 100%;
+  height           : 130px;
+  background-color : #02a2d8;
+  position         : relatif;
+}
+.header {
+  width       : 100%;
+  height      : 40px;
+}
+
+
+
+/pengaturan menu/
+#menu{
+  width             : 100%;
+  height            : 40px;
+  background-color  : #876E79;
+  position          : relative;
+}
+/pengaturan menu/
+#menu ul {
+  margin            : 0;
+  padding           : 0;
+  list-style        : none;
+}
+
+#menu ul li {
+  float             : left;
+}
+
+#menu ul li a {
+  float             : left;
+  color             : #FFCCFF;
+  padding           : 12px 20px;
+  text-decoration   : none;
+  background        : #B76E79;
+  border-left       : 1px solid #3C4042;
+  border-right      : 1px solid #3C4042;
+  text-shadow       : 0 -1px 1px #rgba(0,0,0,0.6);
+}
+#menu ul li a:hover {
+  color             : white;
+  background        : #3C4042;
+}
+
+
+/pengaturan runingtext/
+#runningtext{
+  width             : 100%;
+  height            : 25px;
+  padding-top       : 7px;
+  margin            : 5px 0 5px 0;
+  background-color  : gray;
+  color             : white;
+  position          : relative;
+}
+
+
+
+/pengaturan isi/
+#isi{
+  padding            : 5px;
+  width              : 70%;
+  height             : auto;
+  background-color   : #B76E79;
+  position           : relative;
+  margin-top         : 5px;
+}
+/pengaturan posting/
+.isiposting{
+  background-color   : #F5DEB3;
+  width              : 98%;
+  height             : 150px;
+  margin-bottom      : 5px;
+  padding            : 5px;
+}
+/pengaturan gambar yang di halaman depan/
+.gambardepan{
+  float              : left;
+  height             : 140px;
+  width              : 150px;
+  margin-right       : 5px;
+  margin-top         : 3px;
+}
